@@ -6,7 +6,6 @@ import { CiSearch } from "react-icons/ci";
 
 const ViewPosts = () => {
   const {data:posts} = useGetPosts();
-  console.log(posts);
   return (
     <div>
         <div className="relative">
